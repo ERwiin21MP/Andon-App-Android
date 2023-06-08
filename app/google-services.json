@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "603642328009",
+    "firebase_url": "https://andon-richter-default-rtdb.firebaseio.com",
+    "project_id": "andon-richter",
+    "storage_bucket": "andon-richter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603642328009:android:06774ada39e1701e572e18",
+        "android_client_info": {
+          "package_name": "com.erwiin21mp.andon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603642328009-45tu5ofpgm4f6n1s2o8n3e8hh7avcku0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd4-VvCR31IBSSQZAGmoMKas66obZAQ1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603642328009-45tu5ofpgm4f6n1s2o8n3e8hh7avcku0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

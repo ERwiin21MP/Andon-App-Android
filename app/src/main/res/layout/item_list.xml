@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/background_item_border"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ImageView_Estado"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ninguno" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView_FechaYResponsable"
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="@font/futura_light"
+            android:layout_height="wrap_content"
+            android:text="03/06/2023 01:52:46 · Operador" />
+
+        <TextView
+            android:id="@+id/TextView_Descripcion"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/futura_light"
+            android:layout_height="wrap_content"
+            android:text="Se presiono el boton rojo y el led cambio a estado alto" />
+    </LinearLayout>
+</LinearLayout>
